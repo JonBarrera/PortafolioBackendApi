@@ -1,0 +1,24 @@
+{
+  "name": "paginaweb-spa",
+  "version": "1.0.0",
+  "description": "This is a server application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Jonathan Barrera",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "timeago.js": "^4.0.2"
+  }
+}

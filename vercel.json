@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://user_JIBE:qwerty123@cluster0.n9wdi.mongodb.net/invitaciondb?retryWrites=true&w=majority"
+    }
+  }
